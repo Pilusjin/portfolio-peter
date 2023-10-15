@@ -1,8 +1,24 @@
-# React + Vite
+## Breif
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+In this assignment, you will be documenting three prior submissions from the first year:
+Semester Project 2
+JavaScript Frameworks CA
+Project Exam 2
 
-Currently, two official plugins are available:
+## Built With
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React
+- JavaScript
+
+## Getting Started
+
+1. Clone the repo:
+   git clone https://github.com/Pilusjin/portfolio-peter
+
+2. Install dependencies
+
+   npm i
+
+## Start
+
+    npm run build
