@@ -1,8 +1,8 @@
 // Layout.jsx
 
 import React from "react";
-import Header from "./header";
-import Footer from "./footer";
+import Footer from "./Footer";
+import Header from "./Header";
 import styled from "styled-components";
 
 const LayoutContainer = styled.div`
