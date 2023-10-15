@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import { Link } from "react-router-dom";
 
-// Create a styled header component
 const HeaderWrapper = styled.header`
   background-color: #333;
   color: #fff;
@@ -13,7 +13,6 @@ const HeaderWrapper = styled.header`
   width: 100%;
 `;
 
-// Create a styled navigation component
 const Nav = styled.nav`
   ul {
     list-style: none;
@@ -40,13 +39,13 @@ function Header() {
       <Nav>
         <ul>
           <li>
-            <a href="/">Home</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="/about">About</a>
+            <Link to="/project">Project</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
           </li>
         </ul>
       </Nav>

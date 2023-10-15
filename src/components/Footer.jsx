@@ -6,9 +6,15 @@ const FooterWrapper = styled.footer`
   color: #fff;
   padding: 10px;
   text-align: center;
-  position: absolute;
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
+  font-size: 14px; // Default font size for footer text
+
+  @media (min-width: 600px) {
+    font-size: 16px; // Slightly larger font size for screens wider than 600px
+  }
 `;
 
 function Footer() {
