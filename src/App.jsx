@@ -1,26 +1,21 @@
 import React from "react";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import Contact from "./pages/contact";
 import Home from "./pages/home";
 import ProjectDetail from "./pages/projectDetails";
+import Layout from "./components/Layout";
 
 function App() {
   return (
     <Router>
-      <div>
-        <Header />
+      <Layout>
         <Routes>
-          <Route index element={<Home />} />
           <Route path="/projects/:projectId" element={<ProjectDetail />} />
           <Route path="/contact" element={<Contact />} />
-          {/* Add other paths as needed */}
+          <Route path="/" element={<Home />} />
         </Routes>
-
-        <Footer />
-      </div>
+      </Layout>
     </Router>
   );
 }
